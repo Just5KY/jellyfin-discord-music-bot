@@ -1,4 +1,4 @@
-FROM node:12.18.3-alpine
+FROM node:alpine
 RUN apk add ffmpeg python3
 
 COPY . /app
